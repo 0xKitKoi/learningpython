@@ -1,0 +1,1 @@
+double click run.vbs to launch the desktop pet.

@@ -1,0 +1,9 @@
+Executing script: /home/kitkoi/gaem/list_iteration.py
+Script arguments: Duke,Ruby,Dottie,Snake,Joe
+Output:
+Isabelle Duke
+Grace Duke
+Charlotte Duke
+LeBron Duke
+Steve Duke
+

@@ -1,0 +1,2 @@
+sudo a2enmod cgi
+sudo a2dismod cgi

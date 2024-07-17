@@ -1,0 +1,18 @@
+FIX THESE:
+	
+#fixed	- the path to the gifs are hardcoded
+#fixed		assumes the username is loxxie because they are hardcoded
+
+#fixed	- no exe file
+#fixed		hard to launch and spams the terminal
+			Removed un-needed print statements, no more spam
+			made two scripts to run main.py without a window open.
+
+
+#fixed?	- Requires the user to have tkinter and pyautogui installed
+#fixed?		user has to run pip install on dependancies
+#fixed?		program should do it for them.
+			It would seem that python preinstalls tkinter.
+				pyautogui is not needed.
+
+		Make it better kitkoi

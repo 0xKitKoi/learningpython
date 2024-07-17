@@ -1,0 +1,22 @@
+from pyautogui import *
+import pyautogui
+import time
+import keyboard
+import random
+from pynput.mouse import Button, Controller
+
+
+def clicK(x, y):
+    pyautogui.click(x, y)
+
+while keyboard.is_pressed('q') == False:
+    if pyautogui.pixel(557, 457)[0] == 17:
+        clicK(557, 457)
+    if pyautogui.pixel(662, 457)[0] == 17:
+        clicK(662, 457)
+    if pyautogui.pixel(760, 457)[0] == 17:
+        clicK(760, 457)
+    if pyautogui.pixel(856, 457)[0] == 17:
+        clicK(856, 457)
+
+

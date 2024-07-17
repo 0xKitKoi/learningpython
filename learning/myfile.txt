@@ -1,0 +1,5 @@
+cat
+sat
+mat
+bat
+fat

@@ -1,0 +1,27 @@
+#from pyautogui import *
+import pyautogui
+import keyboard
+import pyscreenshot
+#import numpy as np
+#import cv2
+#import time
+import random
+import time
+
+#def clicK(x, y):
+#    startTime = time.time()
+#    pyautogui.click(x, y)
+#    print("time taken {}".format(time.time() - startTime))
+
+import mouse
+
+def clicK(x, y):
+    startTime = time.time()
+    mouse.move(x, y, absolute=True)
+    mouse.click()
+    print("time taken {}".format(time.time() - startTime))
+
+while keyboard.is_pressed('q') == False:
+	this = random.randrange(400, 600)
+	that = random.randrange(400, 600)
+	clicK(this, that)

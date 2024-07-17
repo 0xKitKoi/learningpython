@@ -1,0 +1,24 @@
+import sys
+
+this = sys.argv
+this.pop()
+
+def check(number):
+    first = False
+    second = False
+    if number % 3 == 0:
+        first = True
+    if number % 5 == 0:
+        second = True
+    if first and second == True:
+        print("fizzbuzz")
+    elif first == True:
+        print("fizz")
+    elif second == True:
+        print("buzz")
+    else:
+        print(number)
+
+for arg in this:
+    conv = int(this[arg])
+    check(conv)
